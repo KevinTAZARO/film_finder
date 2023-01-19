@@ -1,0 +1,41 @@
+.navbar-brand {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+/* Popup container */
+#exit-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    z-index: 999;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Close button */
+  #exit-popup .close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #818181;
+    cursor: pointer;
+  }
+  
+  /* Darken background */
+  #exit-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+  }
